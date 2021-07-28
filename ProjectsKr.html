@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateResponsive.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/projectKr.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateKr.css">
+    <link rel="stylesheet" type="text/css" href="css/flag-icon.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116574407-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116574407-1');
+    </script>
+
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/> 
+    <title>Terrence Lim</title>
+</head>
+<body>
+    <section id="main">
+        <section class="header-bar"></section>
+        <section id="introduction">
+            <img src="images/profile-pic-modified.jpg" , alt="Profile Picture" id="myPicture" />
+            <div id="whoami">
+                <p id="myName">임 희찬</p>
+                <p id="position">박사과정</p>
+                <p id="major">컴퓨터 과학</p>
+                <p id="place">아리조나 대학교</p>
+            </div>
+        </section>
+        <div class="main-nav" id="my-nav">
+            <a href="indexKr.html" class="kr-nav">홈</a>
+            <a href="EducationKr.html" class="kr-nav">교 육</a>
+            <a href="ProjectsKr.html" class="kr-nav">프 로 젝 트</a>
+            <a href="ExperienceKr.html" class="kr-nav">경 험</a>
+            <a href="OrganizationsKr.html" class="kr-nav">소 속 기 관</a>
+            <a href="AwardsKr.html" class="kr-nav">성 취</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+            <div id="flag-holder">
+              <a href="ProjectsJp.html" class="flag"><span class="flag-icon flag-icon-jp"></span></a>
+              <a href="ProjectsKr.html" class="flag"><span class="flag-icon flag-icon-kr"></span></a>
+              <a href="Projects.html" class="flag"><span class="flag-icon flag-icon-us"></span></a>
+            </div> 
+        </div>
+        <section id="content">
+             <div class="project">
+                <p class="warning">*몇몇 리포지토리는 비공개로 설정되어있습니다.</p>
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">AutoMATES - Delphi</h1>
+                            <p class="year">2019년 1월 - 2020년 5월</p>
+                            <p class="class">
+                                美 국방부 첨단연구 프로젝트국(DARPA)</br>
+                                아리조나 대학교
+                            </p>
+                            <p class="class">Research</p>
+                            <p class="class">Ph.D.</p>
+                            <p class="summary">
+                                Automated Model Assembly from Text, Equation, and Software</br>
+                                The AutoMATES project aims to build technology to construct and</br>
+                                curate semantically-rich representations of scientific models</br>
+                                Building Fortran-to-Python (for2py) IR
+                            </p>
+                            <a href="https://ml4ai.github.io/automates/" target="_blank">About AutoMates</a>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/ml4ai/delphi" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Student Response System Security Analysis</h1>
+                            <p class="year">2017년 11월 - 2017년 12월</p>
+                            <p class="class">Advanced Security Course (CINS 548)</p>
+                            <p class="summary">
+                                miniSDR을 이용한 i>Clicker base 및 키패드의 주파수 감지와 기록.</br>
+                                CubicSDR 프로그램을 이용한 주파수 활동의 시각적 분석.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Personal Budgeting Website Development</h1>
+                            <p class="year">2017년 8월 - 2017년 12월</p>
+                            <p class="class">Senior Project (CINS 490)</p>
+                            <p class="summary">
+                                Ruby on Rails 5을 사용한 “Personal spending manager” 웹 어플리케이션 개발.</br>
+                                HTML5, JavaScript, jQuery와 AJAX를 통한 UI 개발.</br>
+                                SQLite3 데이터베이스 사용.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/Spending-Manager/tree/master/spendingManager" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Last Minute Saver (LMS)</h1>
+                            <p class="year">2016년 12월 2017년 5월</p>
+                            <p class="summary">
+                                개인 프로젝트.</br>
+                                교내 주차장 사용 급증에 따른 주차편의 향상을 위한 웹 어플리케이션.</br>
+                                공동개발자
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Game Programming Language Compiler Design</h1>
+                            <p class="year">2016년 8월 2016년 12월</p>
+                            <p class="class">Compiler Design Course (CS 515)</p>
+                            <p class="summary">
+                                게임 프로그래밍 언어를 위한 C++ 기반 flex와 bison 컴파일러 개발.</br>
+                                vim text editor, g++ compiler와 gdb 사용.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/gpl" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Data Web Development</h1>
+                            <p class="year">2016년 6월 - 2016년 7월</p>
+                            <p class="class">Web Programming Fundamentals (CINS 465)</p>
+                            <p class="summary">
+                                Ruby on Rails 4를 이용한 미국 급여 조사 자료 검색 웹사이트 개발.</br>
+                                HTML5와 Javascript를 이용한 UI 개발.</br>
+                                MySQL과 SQLite3 데이터베이스 사용.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/465" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="lastElement">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Database Management</h1>
+                            <p class="year">2016년 1월 - 2016년 5월</p>
+                            <p class="class">Project for Introduction to Databases Course (CINS 370)</p>
+                            <p class="summary">
+                                ER-diagram을 통한 미국 급여 조사 자료간의 연관성 구현.</br>
+                                MySQL을 이용한 데이터 밀집 및 정규화 4단계 구현.</br>
+                                유저의 효과적인 데이터 검색을 위한 procedure을 통한 데이터 분석.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <p id="welcome">제 프로필 페이지에 오신 것을 환영합니다!</p>
+            </footer>
+        </section>
+    </section>
+    <script src="javascripts/template.js" type="text/javascript"></script>
+</body>
+</html>

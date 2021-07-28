@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateResponsive.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/organizations.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/organizationsKr.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateJp.css">
+    <link rel="stylesheet" type="text/css" href="css/flag-icon.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116574407-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116574407-1');
+    </script>
+
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/> 
+    <title>Terrence Lim</title>
+</head>
+<body>
+    <section id="main">
+        <section class="header-bar"></section>
+        <section id="introduction">
+            <img src="images/profile-pic-modified.jpg" , alt="Profile Picture" id="myPicture" />
+            <div id="whoami">
+                <p id="myName">林熙巑 (リム  ヒーチャン)</p>
+                <p id="position">博士課程学生</p>
+                <p id="major">コンピューターサイエンス</p>
+                <p id="place">アリゾナ大学</p>
+            </div>
+        </section>
+        <div class="main-nav" id="my-nav">
+            <a href="indexJp.html" class="jp-nav">ホーム</a>
+            <a href="EducationJp.html" class="jp-nav">学 歴</a>
+            <a href="ProjectsJp.html" class="jp-nav">プロジェクト</a>
+            <a href="ExperienceJp.html" class="jp-nav">経 歴</a>
+            <a href="OrganizationsJp.html" class="jp-nav">所 属 組 織</a>
+            <a href="AwardsJp.html" class="jp-nav">受 賞 歴</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+            <div id="flag-holder">
+              <a href="OrganizationsJp.html" class="flag"><span class="flag-icon flag-icon-jp"></span></a>
+              <a href="OrganizationsKr.html" class="flag"><span class="flag-icon flag-icon-kr"></span></a>
+              <a href="Organizations.html" class="flag"><span class="flag-icon flag-icon-us"></span></a>
+            </div> 
+        </div>
+        <section id="content">
+            <div class="organization">
+                <table>
+                    <tr>
+                        <td class="organizationInfo">
+                            <h1 class="orgName"><a href="http://upe.acm.org/index.html" target="_blank" class="toOrgSite">Upsilon Pi Epsilon</a></h1>
+                            <p class="year">2016年10月–現在</p>
+                            <p class="summary">
+                                学生メンバ</br>
+                                会計係(2018年1月–2018年5月)</br>
+                                2017年 UPE 学業優秀賞
+                            </p>
+                        </td>
+                        <td class="logo">
+                            <img src="images/upe.png" alt="UPE" class="logo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="organization">
+                <table>
+                    <tr>
+                        <td class="organizationInfo">
+                            <h1 class="orgName"><a href="https://www.acm.org/" target="_blank" class="toOrgSite">Association for Computing Machinery</a></h1>
+                            <p class="year">2015年9月–現在</p>
+                            <p class="summary">
+                                学生メンバー
+                            </p>
+                        </td>
+                        <td class="logo">
+                            <img src="images/acm.jpg" alt="ACM" class="logo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="organization">
+                <table>
+                    <tr>
+                        <td class="organizationInfo">
+                            <h1 class="orgName"><a href="https://goldenkey.org/" target="_blank" class="toOrgSite">Golden Key Internation Honour Society</a></h1>
+                            <p class="year">2015年9月–現在</p>
+                            <p class="summary">
+                                学生メンバー</br>
+                                ウェブマスター(2016年8月–2017年5月)</br>
+                                2016年北アメリカインターナショナルサミット 登録助成金(奨学金)取得</br>
+                                2016年北アメリカインターナショナルサミット アリゾナ州，ツーソン 出席
+                            </p>
+                        </td>
+                        <td class="logo">
+                            <img src="images/goldenkey.jpg" alt="Golden Key" class="logo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="lastElement">
+                <table>
+                    <tr>
+                        <td class="organizationInfo">
+                            <h1 class="orgName"><a href="https://www.ieee.org/index.html" target="_blank" class="toOrgSite">Institute of Electrical and Electronics Engineers</a></h1>
+                            <p class="year">2012年2月–現在</p>
+                            <p class="summary">
+                                学生メンバー</br></br>
+                                <span id="membership">参加団体:</span></br>
+                                <a href="https://www.computer.org/" target="_blank" class="toOrgSite">Computer Society</a></br>
+                                <a href="https://bigdata.ieee.org/" target="_blank" class="toOrgSite">Big Data Community</a></br>
+                                <a href="https://cloudcomputing.ieee.org/" target="_blank" class="toOrgSite">Cloud Computing Community</a></br>
+                                <a href="https://iot.ieee.org/" target="_blank" class="toOrgSite">Internet of Things Community</a>
+                            </p>
+                        </td>
+                        <td class="logo">
+                            <img src="images/ieee.jpg" alt="IEEE" class="logo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <p id="welcome">テレンス リムのプロフィールページへようこそ！</p>
+            </footer>
+        </section>
+    </section>
+    <script src="javascripts/template.js" type="text/javascript"></script>
+</body>
+</html>

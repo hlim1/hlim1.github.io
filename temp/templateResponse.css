@@ -1,0 +1,44 @@
+/* Desktop Screen Resolution */
+@media screen and (max-width: 1920px), screen and (max-height: 1080px) {
+}
+@media screen and (max-width: 1600px), screen and (max-height: 900px)  {
+}
+@media screen and (max-width: 1440px), screen and (max-height: 900px)  {
+}
+@media screen and (max-width: 1366px), screen and (max-height: 768px)  {
+}
+@media screen and (max-width: 1280px), screen and (max-height: 1024px) {
+}
+@media screen and (max-width: 1200px), screen and (max-height: 800px)  {
+}
+
+/* Tablet Screen Resolution */
+@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+}
+@media screen and (max-width: 1024px), screen and (max-height: 600px) {
+}
+@media screen and (max-width: 800px), screen and (max-height: 1280px) {
+}
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+}
+@media screen and (max-width: 601px), screen and (max-height: 962px) {
+}
+@media screen and (max-width: 600px), screen and (max-height: 1024px) {
+}
+
+/* Mobile Screen Resolution */
+/* Samsung Galaxy S8 */
+@media screen and (max-width: 1440px), screen and (max-height: 2960px) {
+}
+@media screen and (max-width: 720px), screen and (max-height: 1280px) {
+}
+@media screen and (max-width: 414px), screen and (max-height: 736px) {
+}
+@media screen and (max-width: 375px), screen and (max-height: 667px) {
+}
+@media screen and (max-width: 360px), screen and (max-height: 640px) {
+}
+@media screen and (max-width: 320px), screen and (max-height: 568px) {
+}
+@media screen and (max-width: 320px), screen and (max-height: 534px) {
+}

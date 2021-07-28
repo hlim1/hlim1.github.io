@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateResponsive.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/projectKr.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateJp.css">
+    <link rel="stylesheet" type="text/css" href="css/flag-icon.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116574407-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116574407-1');
+    </script>
+
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/> 
+    <title>Terrence Lim</title>
+</head>
+<body>
+    <section id="main">
+        <section class="header-bar"></section>
+        <section id="introduction">
+            <img src="images/profile-pic-modified.jpg" , alt="Profile Picture" id="myPicture" />
+            <div id="whoami">
+                <p id="myName">林熙巑 (リム  ヒーチャン)</p>
+                <p id="position">博士課程学生</p>
+                <p id="major">コンピューターサイエンス</p>
+                <p id="place">アリゾナ大学</p>
+            </div>
+        </section>
+        <div class="main-nav" id="my-nav">
+            <a href="indexJp.html" class="jp-nav">ホーム</a>
+            <a href="EducationJp.html" class="jp-nav">学 歴</a>
+            <a href="ProjectsJp.html" class="jp-nav">プロジェクト</a>
+            <a href="ExperienceJp.html" class="jp-nav">経 歴</a>
+            <a href="OrganizationsJp.html" class="jp-nav">所 属 組 織</a>
+            <a href="AwardsJp.html" class="jp-nav">受 賞 歴</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+            <div id="flag-holder">
+              <a href="ProjectsJp.html" class="flag"><span class="flag-icon flag-icon-jp"></span></a>
+              <a href="ProjectsKr.html" class="flag"><span class="flag-icon flag-icon-kr"></span></a>
+              <a href="Projects.html" class="flag"><span class="flag-icon flag-icon-us"></span></a>
+            </div> 
+        </div>
+        <section id="content">
+            <div class="project">
+                <p class="warning">*いくつかのrepositoriesは非公開になっております</p>
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">AutoMATES</h1>
+                            <p class="year">2019年01月– 2020年05月</p>
+                            <p class="class">
+                                アメリカ国防高等研究計画局 (DARPA)</br>
+                                はアリゾナ大学
+                            </p>
+                            <p class="class">Research</p>
+                            <p class="class">Ph.D.</p>
+                            <p class="summary">
+                                Automated Model Assembly from Text, Equation, and Software</br>
+                                The AutoMATES project aims to build technology to construct and</br>
+                                curate semantically-rich representations of scientific models</br>
+                                Building Fortran-to-Python (for2py) IR
+                            </p>
+                            <a href="https://ml4ai.github.io/automates/" target="_blank">About AutoMates</a>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/ml4ai/delphi" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Student Response System Security Analysis</h1>
+                            <p class="year">2017年11月–2017年12月</p>
+                            <p class="class">Advanced Security Course (CINS 548)</p>
+                            <p class="summary">
+                                i>Clicker baseとモバイルキーボード周波数を取り込むためのmini SDRの活用</br>
+                                CubicSDRによる可視周波数活動の分析</br>
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Personal Budgeting Website Development</h1>
+                            <p class="year">2017年8月–2017年12月</p>
+                            <p class="class">Senior Project (CINS 490)</p>
+                            <p class="summary">
+                                Ruby on Rails 5によるウェブアプリケーション“Personal spending manager”の開発</br>
+                                HTML5, JavaScript, jQuery, AJAXによるUIの開発</br>
+                                SQLite3を使用したデータベース
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/Spending-Manager/tree/master/spendingManager" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Last Minute Saver (LMS)</h1>
+                            <p class="year">2016年12月–2017年5月</p>
+                            <p class="summary">
+                                個人プロジェクト</br>
+                                学校駐車場使用簡易化のためのウェブアプリケーション
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Game Programming Language Compiler Design</h1>
+                            <p class="year">2016年8月–2016年12月</p>
+                            <p class="class">Compiler Design Course (CS 515)</p>
+                            <p class="summary">
+                              C++によるゲームプログラミング言語インタプリタの開発</br>
+                              vim text editor, g++ compiler, gdbを使ったデバッギング
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/gpl" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Data Web Development</h1>
+                            <p class="year">2016年6月–2016年7月</p>
+                            <p class="class">Web Programming Fundamentals (CINS 465)</p>
+                            <p class="summary">
+                              Ruby on Rails 4による米国給与調査データ研究ウェブサイトの開発</br>
+                              HTML5, JavaScriptによるUIの開発</br>
+                              MySQLからSQLite3への調査データ移行
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/465" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="lastElement">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Database Management</h1>
+                            <p class="year">2016年1月–2016年5月</p>
+                            <p class="class">Project for Introduction to Databases Course (CINS 370)</p>
+                            <p class="summary">
+                                ER-diagramによる米国給与調査データ関係形成の開発</br>
+                                MySQLへのデータ入力</br>
+                                Proceduresを使用したデータ分析によるデータ検索の効率化
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <p id="welcome">テレンス リムのプロフィールページへようこそ！</p>
+            </footer>
+        </section>
+    </section>
+    <script src="javascripts/template.js" type="text/javascript"></script>
+</body>
+</html>

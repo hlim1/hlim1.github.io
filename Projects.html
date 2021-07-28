@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/templateResponsive.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/flag-icon.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116574407-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116574407-1');
+    </script>
+
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/> 
+    <title>Terrence Lim</title>
+</head>
+<body>
+    <section id="main">
+        <section class="header-bar"></section>
+        <section id="introduction">
+            <img src="images/profile-pic-modified.jpg" , alt="Profile Picture" id="myPicture" />
+            <div id="whoami">
+                <p id="myName">HeuiChan (Terrence) Lim</p>
+                <p id="position">PhD Student</p>
+                <p id="major">Computer Science</p>
+                <p id="place">The University of Arizona</p>
+            </div>
+        </section>
+        <div class="main-nav" id="my-nav">
+            <a href="index.html">Home</a>
+            <a href="Education.html">Education</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Experience.html">Experience</a>
+            <a href="Organizations.html">Affiliations</a>
+            <a href="Awards.html">Awards</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+            <div id="flag-holder">
+              <a href="ProjectsJp.html" class="flag"><span class="flag-icon flag-icon-jp"></span></a>
+              <a href="ProjectsKr.html" class="flag"><span class="flag-icon flag-icon-kr"></span></a>
+              <a href="Projects.html" class="flag"><span class="flag-icon flag-icon-us"></span></a>
+            </div> 
+        </div>
+        <section id="content">
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Publications</h1>
+                            <ul>
+                                <li style="margin-bottom:6px">"Automated Bug Localization in JIT Compilers", Proceedings of the 17th ACM SIGPLAN/ SIGOPS
+                                International Conference on Virtual Execution Environments (VEE ’21), Mar 11, 2021</li>
+                                <li>"AutoMATES: Automated Model Assembly from Text, Equations, and Software", Modeling the World's Systems 2019, Jan 21, 2020</li>
+                            </ul>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Fault localisation in JS Engines</h1>
+                            <p class="year">May 2020 - Current</p>
+                            <p class="class">Research</p>
+                            <p class="class">Ph.D.</p>
+                            <p class="summary">
+                                Research in developing efficient way to identify the abnormal</br>
+                                behaviours of JIT compilers that are used by well known JS Engines</br>
+                                via behavioural differential testing between interpreted bytecodes and</br>
+                                JIT compiled code. Then, localise the source of the actual bug in the static</br>
+                                code of JIT compiler.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <p class="warning">*Some repositories might be set to private</p>
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">AutoMATES - Delphi</h1>
+                            <p class="year">January 2019 - May 2020</p>
+                            <p class="class">
+                                Defense Advanced Research Projects Agency (DARPA)</br>
+                                The University of Arizona
+                            </p>
+                            <p class="class">Research</p>
+                            <p class="class">Ph.D.</p>
+                            <p class="summary">
+                                Automated Model Assembly from Text, Equation, and Software</br>
+                                The AutoMATES project aims to build technology to construct and</br>
+                                curate semantically-rich representations of scientific models</br>
+                                Building Fortran-to-Python (for2py) IR
+                            </p>
+                            <a href="https://ml4ai.github.io/automates/" target="_blank">About AutoMates</a>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/ml4ai/delphi" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Statistical Debugging in Dynamic Programs</h1>
+                            <p class="year">January 2019 - May 2019</p>
+                            <p class="class">Research</p>
+                            <p class="class">Ph.D.</p>
+                            <p class="summary">
+                                A research in automating the debugging in dynamic programs.</br>
+                                Especially, targeting interpreters and JIT compilers using</br>
+                                statistical debugging approach.</br>
+                                Targeted JIT compiler - Ruby mJIT.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Student Response System Security Analysis</h1>
+                            <p class="year">Nov 2017 - Dec 2017</p>
+                            <p class="class">Advanced Security Course (CINS 548)</p>
+                            <p class="class">Undergraduate</p>
+                            <p class="summary">
+                                Utilized mini SDR to capture both i>Clicker base and mobile keypads frequency.</br>
+                                Analyzed visualized frequency activities from CubicSDR.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Personal Budgeting Website Development</h1>
+                            <p class="year">Aug 2017 – Dec 2017</p>
+                            <p class="class">Senior Project (CINS 490)</p>
+                            <p class="class">Undergraduate</p>
+                            <p class="summary">
+                                Developed “Personal spending manager” web application with Ruby on Rails 5.</br>
+                                Designed UI with HTML5, JavaScript, jQuery, and AJAX.</br>
+                                Developed backend database with SQLite3 to store user inputs and automate data</br>
+                                updates with stored procedures, trigger.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/Spending-Manager/tree/master/spendingManager" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Last Minute Saver (LMS)</h1>
+                            <p class="year">Dec 2016 – May 2017</p>
+                            <p class="summary">
+                                Personal Project with a peer.</br>
+                                Based on user interactions in parking sharing.</br>
+                                Co-founder
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">Game Programming Language Compiler Design</h1>
+                            <p class="year">Aug 2016 – Dec 2016</p>
+                            <p class="class">Compiler Design Course (CS 515)</p>
+                            <p class="class">Undergraduate</p>
+                            <p class="summary">
+                                Developed a gaming programming language interpreter with C++ using flex and bison.</br>
+                                Used vim text editor, g++ compiler, and gdb in debugging.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/gpl" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="project">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Data Web Development</h1>
+                            <p class="year">Jun 2016 – Jul 2016</p>
+                            <p class="class">Web Programming Fundamentals (CINS 465)</p>
+                            <p class="class">Undergraduate</p>
+                            <p class="summary">
+                                Developed a website for the U.S. salary census data search in Ruby on Rails 4.</br>
+                                Designed UI with HTML5, and JavaScript.</br>
+                                Utilized jQuery and AJAX to ease the process of data retrieval and search.</br>
+                                Migrated census data from MySQL to SQLite3 database for the application’s backend.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <a href="https://github.com/hlim1/465" target="_blank">
+                                <img src="images/github.jpg" alt="github" class="githubLogo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="lastElement">
+                <table>
+                    <tr>
+                        <td class="projectInfo">
+                            <h1 class="projectTitle">U.S. Salary Census Database Management</h1>
+                            <p class="year">Jan 2016 – May 2016</p>
+                            <p class="class">Project for Introduction to Databases Course (CINS 370)</p>
+                            <p class="class">Undergraduate</p>
+                            <p class="summary">
+                                Designed the U.S. salary census data relationship with ER-diagram.</br>
+                                Populated data into MySQL database and normalized down fourth normal form.</br>
+                                Implemented procedures to analyze data that it can be efficiently retrieved by the users.
+                            </p>
+                        </td>
+                        <td class="githubRepo">
+                            <img src="images/github.jpg" alt="github" class="hiddenLogo" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <p id="welcome">Welcome to Terrence Lim's Profile Page!</p>
+            </footer>
+        </section>
+    </section>
+    <script src="javascripts/template.js" type="text/javascript"></script>
+</body>
+</html>
