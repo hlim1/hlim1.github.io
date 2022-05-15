@@ -31,7 +31,17 @@
     opacity: 0;
 }
 
-.publication-link {
+.publication-link:link {
+    text-decoration: none;
+    color: #006699;
+}
+
+.publication-link:visited {
+    text-decoration: none;
+    color: #006699;
+}
+
+.publication-link:hover {
     text-decoration: none;
     color: #006699;
 }
