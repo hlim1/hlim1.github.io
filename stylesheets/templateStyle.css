@@ -99,27 +99,36 @@ footer {
     background-color: #283E4B;
 }
 
+
 .main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #283E4B;
+    display: flex; /* Use flexbox to arrange items horizontally */
 }
 
-    .main-nav a {
-        float: left;
-        display: block;
-        color: #FFFFFF;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
-    }
+.main-nav li {
+    flex: 1; /* Ensure each list item takes equal space */
+}
 
-        .main-nav a:hover {
-            background-color: #000000;
-        }
+.main-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
-        .main-nav .flag {
-            float: right;
-        }
+}
+
+.main-nav li a:hover {
+    background-color: #000000;
+}
+
+.main-nav .flag {
+    float: right;
+}
 
 .main-nav .icon {
     display: none;
