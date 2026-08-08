@@ -1,0 +1,125 @@
+﻿#arizona {
+    width: 72%;
+    margin-left: 14%;
+    border-bottom-style: solid;
+    border-color: #696969;
+}
+
+#california {
+    width: 72%;
+    margin-left: 14%;
+    border-bottom-style: solid;
+    border-color: #696969;
+}
+
+#bangkok {
+    width: 72%;
+    margin-left: 14%;
+}
+
+.school {
+    margin-bottom: 0;
+}
+
+.year {
+    margin-top: 10px;
+}
+
+.summary {
+    line-height: 18px;
+}
+
+.toSchoolSite:link {
+    color: #006699;
+    text-decoration: none;
+}
+.toSchoolSite:visited {
+    color: #006699;
+    text-decoration: none;
+}
+.toSchoolSite:hover {
+    color: #8C001A;
+    text-decoration: none;
+}
+
+.logo {
+    width: 120px;
+}
+
+@media screen and (max-width: 4000px), screen and (max-height: 3000px) {
+    #bangkok {
+        margin-bottom: 3%;
+    }
+
+    .school {
+        font-size: 2em; 
+    }
+
+    .year {
+        font-size: 1.5em;
+    }
+
+    .summary {
+        font-size: 1.5em;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .eduInfo {
+        width: 850px;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1950px), screen and (max-height: 1080px) {
+    #bangkok {
+        margin-bottom: 3%;
+    }
+
+    .school {
+        font-size: 1.5em;
+    }
+
+    .year {
+        font-size: 1.2em;
+    }
+
+    .summary {
+        font-size: 1.2em;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .eduInfo {
+        width: 680px;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 1080px) {
+    .eduInfo {
+        padding-left: 2%;
+    }
+}
+
+/* Mobile Screen Resolution */
+@media screen and (max-width: 720px) and (max-height: 1280px) {
+    #arizona {
+        width: 100%;
+        margin-left: 0; 
+    }
+
+    #california {
+        width: 100%;
+        margin-left: 0; 
+    }
+
+    #bangkok {
+        width: 100%;
+        margin-left: 0; 
+    }
+}
