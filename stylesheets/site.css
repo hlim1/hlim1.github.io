@@ -629,6 +629,13 @@ html[lang="ja"] .section-title .kicker {
 }
 
 
+
+.poster-venue {
+  margin-top: .28rem;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
 /* --------------------------------------------------------------------------
    Mobile and tablet refinements
    -------------------------------------------------------------------------- */
